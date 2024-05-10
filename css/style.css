@@ -1,0 +1,17 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+
+
+
+.carousel-image {
+    height: 500px; /* ajusta la altura según tu preferencia */
+    width: 100%; /* asegura que la imagen no se desborde del contenedor */
+    object-fit: cover; /* esto asegura que la imagen se ajuste al contenedor sin deformarse */
+}
